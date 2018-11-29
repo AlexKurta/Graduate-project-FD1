@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Контакты СТО</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="favicon.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity		="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="	anonymous">
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous"></script>  
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+     
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/javascript.js"></script>	
+</head>
+	<body>		
+<!-- Шапка страницы -->
+		<div class="header">						
+			<ul>
+				<li><a href="index.html"><p>О КОМПАНИИ</p><p>кто мы</p></a></li>
+				<li><a href="services.html"><p>УСЛУГИ</p><p>что мы делаем</p></a></li>
+				<li><a href="maintenance.html"><p>ОБСЛУЖИВАНИЕ</p><p>советы и рекомендации</p></a></li>
+				<li><a href="partners.html"><p>ПАРТНЕРЫ</p><p>наши партнеры</p></a></li>
+				<li><a href="contacts.html" class="active"><p>КОНТАКТЫ</p><p>где мы находимся</p></a></li>		
+			</ul>			
+		</div>
+<!-- Основная часть -->
+		<div class="content">
+<!-- Логотип -->
+		  <div class="logo">
+				<img src="images/logo400x141.png" alt="Логотип">
+			</div>
+<!-- Карта и форма -->
+        <div class="flex-container">
+            <div class="map">
+            <h2>ГДЕ НАС ИСКАТЬ</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.272497986296!2d27.52054641558966!3d53.9091334801008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc55f35bf3dad%3A0xaabda25bdeeb761f!2z0YPQuy4g0KHQutGA0YvQs9Cw0L3QvtCy0LAgMTQsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1531235500499" width="800" height="450" frameborder="0" style="border:0" ></iframe>
+                <p>Республика Беларусь, Минск, Скрыганова, 14</p>
+                <p>Телефон: <a href="tel:+375123456789">+375-12-345-67-89</a></p>
+                <p><a href="mailto: info@udoit.by">info@udoit.by</a></p>
+            </div>
+            <div class="contact-form">
+                <h2>ЗАДАТЬ ВОПРОС</h2>
+                <form method="post" action="" id="loginform">           
+                    <input type="text" placeholder="  Имя:" name="name" id="name">
+                    <div class="error-text"><span>Поле должно быть заполнено</span></div>
+                    <input type="text" placeholder="  E-mail:" name="email" id="email">
+                    <div class="error-text"><span>Поле должно быть заполнено</span></div>
+                    <input type="text" placeholder="  Телефон:" name="tel" id="tel">
+                    <div class="error-text"><span>Поле должно быть заполнено</span></div>
+                    <textarea placeholder=" Ваше сообщение:" name="message" id="texta"></textarea> 
+                    <div class="error-text"><span>Поле должно быть заполнено</span></div>
+                    <div class="center">  
+                        <input type="button" value="Лупа" id="a2">
+                        <label for="a2"><i class="far fa-check-circle"></i></label>
+                        <input type="reset" value="reset" id="a3">
+                        <label for="a3"><i class="far fa-times-circle"></i></label>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+<!-- Подвал страницы -->
+  	    <div class="footer">
+      		<div class="icons">
+      			<ul>
+      				<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+      				<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+      				<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      				<li><a href="#"><i class="fab fa-odnoklassniki-square"></i></a></li>
+      				<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+      				<li><a href="#"><i class="fab fa-vk"></i></a></li>
+      			</ul>
+      		</div>
+      		<div class="end"><span>U DO IT</span> AUTO REPAIR &copy; 2018</div>
+      	</div>
+<!-- Кнопки вверх/вниз -->
+      	<div class="up"><i class="fas fa-chevron-circle-up"></i></div>
+      	<div class="down"><i class="fas fa-chevron-circle-down"></i></div>
+    <!-- Мобильное меню -->
+        <div class="mobile-menu">
+            <div class="menu-small"><span><i class="fas fa-bars"></i></span></div>      
+            <ul>
+                <li><a href="index.html"><p>О КОМПАНИИ</p><p>кто мы</p></a></li>
+                <li><a href="services.html"><p>УСЛУГИ</p><p>что мы делаем</p></a></li>
+                <li><a href="maintenance.html"><p>ОБСЛУЖИВАНИЕ</p><p>советы и рекомендации</p></a></li>
+                <li><a href="partners.html"><p>ПАРТНЕРЫ</p><p>наши партнеры</p></a></li>
+                <li><a href="contacts.html" class="active-m"><p>КОНТАКТЫ</p><p>где мы находимся</p></a></li>        
+            </ul>
+        </div>
+				
+	</body>
+</html>
